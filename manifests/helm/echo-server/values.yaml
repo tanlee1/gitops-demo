@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: registry.cn-hangzhou.aliyuncs.com/haoshuwei24/echo-server
+  repository: registry.cn-hongkong.aliyuncs.com/mind-docker/mind-ms-sdk
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "v1.0"
@@ -40,7 +40,7 @@ service:
   #type: LoadBalancer
   #type: NodePort
   type: ClusterIP
-  port: 8080
+  port: 18802
 
 ingress:
   enabled: false
