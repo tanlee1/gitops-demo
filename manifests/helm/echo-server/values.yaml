@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: registry.cn-hongkong.aliyuncs.com/mind-docker/mind-ms-sdk
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "v1.0.12"
 
