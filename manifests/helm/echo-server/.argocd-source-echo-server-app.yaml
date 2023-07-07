@@ -1,0 +1,8 @@
+helm:
+  parameters:
+  - name: image.name
+    value: registry.cn-hongkong.aliyuncs.com/mind-docker/mind-ms-sdk
+    forcestring: true
+  - name: image.tag
+    value: v1.0.13
+    forcestring: true
